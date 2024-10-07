@@ -1,0 +1,100 @@
+# Compiled class files
+*.class
+
+# Maven target directory
+target/
+
+# Gradle build directories
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE files
+/.idea/
+/.idea/
+/*.iml
+.vscode/
+/.project
+.classpath
+.settings/
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven specific files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle specific files
+.gradle/
+/.gradle/
+/gradle/
+/!gradle-wrapper.jar
+build/
+!gradlew
+!gradlew.bat
+!.gradle
+
+# JetBrains specific files
+*.ipr
+*.iws
+
+# IntelliJ IDEA out directory
+/out/
+
+# Eclipse Specific
+/.metadata
+/.recommenders
+
+# STS specific
+/spring-tool-suite/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Local environment variables
+.env
+.env.*
+
+# Test coverage reports
+coverage/
+
+# Classpath variables
+.classpath
+
+# IntelliJ IDEA artifacts
+.idea/artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Lombok config
+lombok.config
+
+# Database files
+*.h2.db
+*.mv.db
+*.ldb
+
+# Java specific files
+*.log
+*.pid
+*.gz
+
+# Security config
+secret.properties

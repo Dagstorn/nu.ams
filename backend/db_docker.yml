@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ams_postgres:
+    image: postgres:latest
+    container_name: ams_postgres_db
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypass
+      POSTGRES_DB: ams_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ams_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ams_pgdata:
